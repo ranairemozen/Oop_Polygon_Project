@@ -1,0 +1,7 @@
+# Tüm metin dosyaları için satır sonlarını otomatik yönet
+* text=auto
+
+# C# kod dosyalarını açıkça belirt
+*.cs text diff=csharp
+*.sln text eol=crlf
+*.csproj text eol=crlf
